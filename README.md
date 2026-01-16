@@ -17,25 +17,33 @@
 
 ## Installation
 
-### Prerequisites
+### Quick Install (Recommended)
 
-- Python 3.10+
-- [Conda](https://docs.conda.io/en/latest/) (recommended)
+Install directly from PyPI:
 
-### Setup
+```bash
+pip install tasep-models
+```
 
-1. **Clone or Download** the repository to your local machine.
+### Development Installation
 
-2. **Create the Environment**:
-    Use the provided `environment.yml` to set up a clean environment with all dependencies.
+For development or to access example notebooks:
+
+1. **Clone the repository**:
+
+    ```bash
+    git clone https://github.com/your-username/tasep_models.git
+    cd tasep_models
+    ```
+
+2. **Create conda environment** (optional but recommended):
 
     ```bash
     conda env create -f environment.yml
     conda activate tasep_models
     ```
 
-3. **Install the Package**:
-    Install in editable mode (`-e`) to allow for development and easy updates.
+3. **Install in editable mode**:
 
     ```bash
     pip install -e .
