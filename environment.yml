@@ -1,0 +1,18 @@
+name: tasep_models
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy=1.26.4
+  - pandas=2.2.2
+  - scipy=1.13
+  - matplotlib=3.9
+  - numba=0.60
+  - llvmlite=0.43
+  - biopython
+  - joblib
+  - pip:
+    - dna-features-viewer>=3.1
+    - snapgene-reader>=0.1
